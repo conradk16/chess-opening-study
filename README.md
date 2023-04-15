@@ -1,1 +1,1 @@
-# chess_opening_study
+# chess-opening-study
