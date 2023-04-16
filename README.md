@@ -10,3 +10,7 @@ To Use:
 * In the main directory,
     * create sheet_id.txt (a single-line text file with the Google Sheet id)
     * add credentials.json (from the Google Workspace step)
+
+![Example Run](example_run.png)
+![Example White](example_white.png)
+![Example Black](example_black.png)
