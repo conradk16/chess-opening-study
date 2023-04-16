@@ -1,4 +1,8 @@
 # chess-opening-study
+
+Overview:
+* This tool lets you create your own 'opening book' (i.e. list of opening moves you would like to make) in a Google Sheet and connect that sheet to a Jupyter Notebook where you can easily study them, flashcard-style.
+
 Installation:
 * Clone the Repository
 * Create a Conda environment using `environment.yml`
