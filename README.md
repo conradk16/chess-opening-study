@@ -8,6 +8,7 @@ Setup:
     * see examples below
     * Use indentation for deeper moves as shown. Must use official [Chess Algebraic Notation](https://en.wikipedia.org/wiki/Algebraic_notation_(chess)).
     * Each box should have two moves separated by a space (with the exception of the very first move), with the opponent's move first and the move to learn second.
+    * Note: substitute the '#' character for any move to learn in the Google Sheet (e.g. '2...d5 3.#'), and the trainer will ignore that opening move. This can be useful when dealing with chess boards reached by multiple paths.
 * Create a Google Workspace project with access to Google Sheets
     * see https://console.cloud.google.com/
     * create an OAuth client id for the project and download the client id and secret into a file 'credentials.json'
