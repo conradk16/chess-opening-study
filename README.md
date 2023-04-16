@@ -5,7 +5,14 @@ Overview:
 
 Installation:
 * Clone the Repository
-* Create a Conda environment using `environment.yml`
+* Create Environment:
+    * Option 1: Conda: `conda env create --name envname --file=environments.yml`
+    * Option 2: pip:
+```
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
 
 Setup:
 * Create a Google Sheet with 'White' and 'Black' tabs, each with opening moves enumerated
